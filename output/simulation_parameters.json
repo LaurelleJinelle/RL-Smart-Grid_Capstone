@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-06-15T10:35:01.514434+00:00",
+  "quarter": "2022_Q4",
+  "n_feeders": 414,
+  "n_feeders_with_caps": 331,
+  "n_feeders_imputed": 83,
+  "bands": [
+    "A",
+    "A - Bilateral",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "band_priority": {
+    "A": 5,
+    "A - Bilateral": 5,
+    "B": 4,
+    "C": 3,
+    "D": 2,
+    "E": 1
+  },
+  "band_committed_hours_default": {
+    "A": 20.0,
+    "A - Bilateral": 20.0,
+    "B": 16.0,
+    "C": 12.0,
+    "D": 8.0,
+    "E": 4.0
+  },
+  "supply": {
+    "q4_total_energy_received_GWh": null,
+    "q4_total_energy_billed_GWh": null,
+    "q4_billing_efficiency_pct": 89.12,
+    "q4_atcc_loss_pct": 18.43,
+    "avg_MWh_per_hour_q4": 504.5549581839905,
+    "monthly_supply_MWh": {
+      "2022-10": 343000.0,
+      "2022-11": 365000.0,
+      "2022-12": 406000.0
+    }
+  },
+  "episode_defaults": {
+    "hours_per_step": 1,
+    "steps_per_episode": 24,
+    "episodes_per_quarter": 90
+  },
+  "reward_weights_starting_point": {
+    "unserved_energy_penalty": 1.0,
+    "band_compliance_bonus": 0.5,
+    "fairness_bonus": 0.3,
+    "wasted_energy_penalty": 0.2
+  },
+  "notes": [
+    "demand_weight in master_feeder_table sums to 1.0 across feeders.",
+    "Multiply demand_weight by supply.avg_MWh_per_hour_q4 (or a scaled-up demand total) to get a per-feeder hourly demand anchor before adding load shape and noise.",
+    "Cap units in the source CSV are labelled 'kWh' but the summed monthly totals are consistent with MWh; the script preserves the original numbers without changing units."
+  ]
+}

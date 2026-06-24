@@ -1,0 +1,9 @@
+Metric,Unit,2022_Q3,2022_Q4,Change_Q3_to_Q4,Source_in_report,Notes
+Average hourly energy received at trading points,MWh/h,466.99,504.27,,Table 1,
+Available Partial Contracted Capacity (PCC),MWh/h,465.96,511.81,,Table 1,
+Energy offtake variance vs available PCC,%,0.22,-1.47,,Table 1 / Figure 9,Figure 9 rounds Q4 to -1% (offtake 504 vs PCC 512 MWh/h); all DisCos took less than available PCC in Q4
+Billing efficiency,%,88.69,89.12,+0.43 pp,Table 2 / Section 2.5.2,Highest billing efficiency of all 11 DisCos in 2022/Q4
+Collection efficiency,%,93.23,91.52,-1.71 pp,Table 3 / Section 2.5.3,Named among the four DisCos with declines; still the highest collection efficiency in Table 3 for both quarters
+ATC&C loss,%,17.29,18.43,,Table 4,2022 MYTO target for Ikeja: 11.37%; no DisCo met its target
+Metering rate,%,,58.82,,Table 12 / Figure D,Highest metering rate of all DisCos
+Complaint resolution rate,%,90.09,66.72,,Table 14,Lowest resolution rate of all DisCos in Q4; only Ikeja and Ibadan fell below 90%

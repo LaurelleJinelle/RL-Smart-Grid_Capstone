@@ -1,0 +1,183 @@
+================================================================================
+IKEJA ELECTRIC (IKEDC) - COMPLETE DATA EXTRACTION
+Source: NERC (Nigerian Electricity Regulatory Commission) Quarterly Report,
+Fourth Quarter 2022 (file: 2022_Q4_Report_Updated_310723.pdf)
+================================================================================
+
+ENTITY
+------
+Ikeja Electric Plc - listed as "IE: Ikeja Electric Plc" in the report's list of
+abbreviations (p.6). Appears in tables as "Ikeja", "IKEJA", "IKEDC" or "IKEDC'".
+One of the 11 electricity Distribution Companies (DisCos) in the Nigerian
+Electricity Supply Industry (NESI).
+
+ACCOMPANYING CSV FILES
+----------------------
+1. ikeja_quarterly_summary_2022_q3_vs_q4.csv
+   Every quarterly KPI for Ikeja (energy, billing, collections, ATC&C, market
+   remittances, metering, complaints, Forum appeals, health & safety), with
+   source table/figure references and contextual notes.
+2. ikeja_monthly_performance_jul_dec_2022.csv
+   Monthly energy received/billed (Appendix II) and monthly billings/
+   collections (Appendix III), July-December 2022.
+3. ikeja_monthly_remittances_jul_dec_2022.csv
+   Monthly invoices and remittances to NBET (Appendix V) and to the Market
+   Operator (Appendix IV), July-December 2022.
+4. ikeja_meter_installations_by_program.csv
+   Meter installation history 2019-2022/Q4 under MAP, NMMP and all programs
+   combined (Appendices X, XI, XII).
+5. ikeja_complaints_by_category_2022_q4.csv
+   Breakdown of the 29,282 customer complaints received in 2022/Q4
+   (Appendix VI / Appendix XIV).
+6. ikeja_forum_appeals_2022_q4.csv
+   Appeals handled by the Forum Office serving Ikeja DisCo in 2022/Q4,
+   including category breakdown (Table 15 / Appendix XIII).
+
+NARRATIVE MENTIONS OF IKEJA IN THE REPORT (by section)
+------------------------------------------------------
+Executive Summary (Figures C and D):
+- Figure C (DisCo invoices and remittances, 2022/Q4): Ikeja invoice ~NGN
+  35,069m, remittance ~NGN 34,408m, performance 98% - the joint-highest
+  remittance performance alongside Ibadan.
+- Figure D (customer metering as at Dec 2022): ~1,298 thousand registered
+  customers, ~764 thousand metered, 58.82% metering rate - the highest of all
+  DisCos.
+
+Section 2.5.1 - Energy received and contracted capacity (Table 1, Figure 9):
+- 2022/Q3: energy received 466.99 MWh/h vs available PCC of 465.96 MWh/h
+  (variance +0.22%, i.e. Ikeja took slightly more than its PCC).
+- 2022/Q4: energy received 504.27 MWh/h vs available PCC of 511.81 MWh/h
+  (variance -1.47%). In Q4 all DisCos took less than their available PCC.
+
+Section 2.5.2 - Energy billed and billing efficiency (Table 2):
+- Energy received rose from 1,031.11 GWh (Q3) to 1,113.40 GWh (Q4), an
+  increase of +82.29 GWh (+7.98%) - among the highest increases of all DisCos.
+- Energy billed rose from 914.45 GWh to 992.33 GWh.
+- Billing efficiency improved from 88.69% to 89.12% (+0.43 pp); the report
+  identifies Ikeja as having the highest billing efficiency of all DisCos in
+  2022/Q4.
+
+Section 2.5.3 - Revenue and collection efficiency (Table 3):
+- Billings: NGN 46.55bn (Q3) -> NGN 51.81bn (Q4).
+- Collections: NGN 43.40bn (Q3) -> NGN 47.42bn (Q4).
+- Collection efficiency fell from 93.23% to 91.52% (-1.71 pp). Ikeja is named
+  among the four DisCos (Jos, Eko, Ikeja, Kano) whose collection efficiency
+  declined, though per Table 3 it remained the highest of the 11 DisCos in
+  both quarters.
+
+Section 2.5.4 - ATC&C losses (Table 4):
+- ATC&C loss: 17.29% (Q3) -> 18.43% (Q4) against a 2022 MYTO target of
+  11.37%. Per Table 4 this was the lowest (best) ATC&C loss of all DisCos in
+  both quarters, but still above its allowed target; the report notes no
+  DisCo met its loss target in either quarter.
+
+Section 2.5.5 - Market remittance to NBET and MO (Tables 5 & 6, Figure 10):
+- Q4 invoices: NBET NGN 32.22bn (full); MRO of 89.45% giving an MRO-adjusted
+  final obligation of NGN 28.82bn; MO NGN 6.25bn.
+- Q4 remittances: NGN 27.84bn to NBET and NGN 6.57bn to MO (combined NGN
+  34.41bn against a combined MRO-adjusted invoice of NGN 35.07bn).
+- Combined remittance performance: 108.05% (Q3) -> 98.11% (Q4). Ikeja is
+  cited among DisCos with remittance performance above 90% in Q4 and also
+  among the four DisCos with the largest declines (-9.94 pp).
+
+Section 2.5.6 - Remittance to the Market Operator (Figure 11):
+- Ikeja and Ibadan were the only DisCos with >100% remittance to MO in Q4:
+  Ikeja 105.12% (NGN 6.571bn paid against an invoice of NGN 6.25bn).
+  Performance above 100% reflects payment of arrears (report footnote 7).
+- Q3 -> Q4 change: -2.97 pp (Q3 ~108% per Appendix IV).
+
+Section 2.5.7 - Remittance to NBET (Figure 12):
+- Q4 performance ~97% measured against the MRO-adjusted invoice (NGN 27,839m
+  remitted against NGN 28,820m per Figure 12).
+- Ikeja recorded one of the largest declines in NBET remittance performance:
+  -19.03 pp (second only to Jos at -21.55 pp). Q3 was ~116% (Appendix V).
+- The report attributes the sector-wide Q4 decline mainly to non-remittance
+  of regulatory net-off funds by the Ministry of Finance, and notes that no
+  DisCo had adequate collections to meet full upstream obligations without
+  net-offs.
+
+Section 2.5.8 / Table 7 - Bilateral customers:
+- "IKEJA EGIN" (Ikeja/Egbin bilateral arrangement) is listed among bilateral
+  customers with zero NBET and MO invoices and zero remittances in 2022/Q4
+  (all values 0.00 / 0%).
+
+Section 4.2 - Metering (Tables 12 & 13, Appendices X-XII):
+- As at 31 December 2022: 1,298,323 registered customers; 763,680 metered;
+  58.82% metering rate (highest of all DisCos).
+- 52,177 meters installed in Q4 vs 28,733 in Q3 (+23,444 / +81.59% - the
+  highest quarterly increase of any DisCo). Ikeja led all DisCos, accounting
+  for 31.70% of total industry installations in Q4.
+- All 52,177 Q4 installations were under the MAP scheme (32.59% of all MAP
+  installations - the highest of any DisCo). Zero NMMP installations in Q4;
+  Ikeja's NMMP Phase-0 allocation of 111,703 meters was fully installed by
+  the end of 2021.
+- Cumulative installations through Q4 2022: 454,729 out of 1,186,114
+  contracted (MAP: 343,026 of 1,074,411; NMMP: 111,703 of 111,703).
+
+Section 4.3 - Customer complaints (Table 14, Appendices VI & XIV):
+- Q4: 29,282 complaints received (-2,762 / -8.62% vs Q3's 32,044); 19,536
+  resolved; 9,746 unresolved; resolution rate 66.72% (Q3: 90.09%).
+- Ikeja and Ibadan were the only DisCos below a 90% resolution rate in Q4;
+  Ikeja's 66.72% was the lowest of all DisCos.
+- Category breakdown (Q4): Meter 12,755; Others 8,453; Billing 2,696;
+  Interruption 1,967; Delay 1,744; Disconnection 1,023; Loadshedding 359;
+  Voltage 285.
+
+Section 4.4 - Forum Offices (Table 15, Appendices VII & XIII):
+- The Forum Office serving Ikeja DisCo received the highest number of appeals
+  of any DisCo in Q4: 906 active appeals (550 brought forward from Q3 + 356
+  new), of which 500 were resolved and 406 remained pending after 8 panel
+  sittings (resolution rate 55.19%).
+- Appeal categories: Billing 640; Meter 218; Others 26; Disconnection 16;
+  Loadshedding 3; Interruption 2; Delay 1; Voltage 0.
+- Forum Office contact (Appendix XV): Ikeja, Lagos State - 199 Obafemi
+  Awolowo Way, Alausa, Ikeja, Lagos State; Tel: 8106807298;
+  Email: ikejaforum@nerc.gov.ng.
+  (A separate Eko Forum Office at 61 Odunlami Street, Lagos Island covers
+  Eko DisCo.)
+
+Section 4.5 - Health and Safety:
+- Ikeja and Yola were the only DisCos that reported no incidents in 2022/Q4
+  (0 incidents, 0 injuries, 0 deaths). IKEDC accordingly shows no bars in
+  Figure 15 (incidence report by licensee).
+
+DATA QUALITY / INTERPRETATION NOTES
+-----------------------------------
+1. Two bases for NBET remittance performance: the main report (Figure 12,
+   Table 6) measures performance against the MRO-adjusted invoice (Ikeja Q4
+   ~97-98%), while Appendix V's Q4 figure (86%) is measured against the full
+   NBET invoice of NGN 32.22bn. Both are consistent with the same NGN 27.84bn
+   remitted.
+2. Table 13's column headed "Number of Metered Customers as at 2022/Q4"
+   actually lists total REGISTERED customers (Ikeja: 1,298,323, matching the
+   registered-customer figure in Table 12; actual metered customers were
+   763,680).
+3. Probable row misalignment in Appendix VII: the figures attributed there to
+   "Gusau, Zamfara State" (Q3: 910 received / 360 resolved / 550 pending /
+   39.56%; Q4: 906 / 500 / 406 / 55.19%) match the Ikeja Forum Office data in
+   Table 15 and Appendix XIII, while Appendix VII's "Ikeja, Lagos State" row
+   (15 / 1 / 14 / 6.67%) matches Appendix XIII's Jigawa row. The CSVs here
+   follow Table 15 and Appendix XIII, which are internally consistent (550
+   pending at end of Q3 = 550 brought forward into Q4). On that basis,
+   Ikeja's Q3 Forum figures were most likely 910 appeals received, 360
+   resolved, 550 pending (39.56%) - treat with caution given the misalignment.
+4. Figures C, 10, 11 and 12 plot values in NGN MILLIONS even though the axis
+   labels read "Billion" (e.g. Ikeja's 35,069 / 34,408 in Figure 10 = NGN
+   35.07bn / 34.41bn).
+5. Appendix IV and V column headers mislabel the periods as 2022/Q2 and
+   2022/Q3; the months shown (Jul-Dec 2022) confirm the data are actually
+   for 2022/Q3 and 2022/Q4.
+6. Remittance performance above 100% (e.g. Ikeja's 105.12% to MO in Q4 and
+   108.05% combined in Q3) reflects payment of arrears (report footnote 7).
+7. Monthly values in the appendices are rounded, so their quarterly sums can
+   differ slightly from the stated quarterly totals (e.g. Q4 energy received
+   sums to 1,114 GWh vs the stated 1,113.40 GWh).
+8. No Ikeja-specific entries appear in the generation (GenCo), licensing,
+   captive-power, mini-grid or meter-service-provider certification sections
+   for 2022/Q4. Two Lagos-located items that may fall within Ikeja Electric's
+   franchise area but are NOT explicitly linked to Ikeja in the report:
+   (a) Chi Limited's 23.59MW captive plant at Ajao Estate, Lagos (Table 9);
+   (b) Enaro Energy Mini Grid Limited's 999kW permit at Ishoka phase 1,
+   Mercy Land and Mercy phase 1 Estate, Ajobo Ipaja LGA, Lagos (Table 10).
+   Egbin power station (referenced in the "IKEJA EGIN" bilateral) is a GenCo
+   reported separately from Ikeja DisCo.

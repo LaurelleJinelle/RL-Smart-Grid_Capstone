@@ -1,0 +1,38 @@
+Metric,Unit,2022_Q3,2022_Q4,Change_Q3_to_Q4,Source_in_report,Notes
+Average hourly energy received at trading points,MWh/h,466.99,504.27,,Table 1,
+Available Partial Contracted Capacity (PCC),MWh/h,465.96,511.81,,Table 1,
+Energy offtake variance vs available PCC,%,0.22,-1.47,,Table 1 / Figure 9,"Figure 9 rounds Q4 to -1% (offtake 504 vs PCC 512 MWh/h); all DisCos took less than available PCC in Q4"
+Total energy received,GWh,1031.11,1113.40,+82.29 GWh (+7.98%),Table 2 / Section 2.5.2,Among the highest increases of all DisCos
+Total energy billed,GWh,914.45,992.33,,Table 2,
+Billing efficiency,%,88.69,89.12,+0.43 pp,Table 2 / Section 2.5.2,Highest billing efficiency of all 11 DisCos in 2022/Q4
+Total billings to customers,NGN billion,46.55,51.81,,Table 3,
+Revenue collected,NGN billion,43.40,47.42,,Table 3,
+Collection efficiency,%,93.23,91.52,-1.71 pp,Table 3 / Section 2.5.3,"Named among the four DisCos with declines; still the highest collection efficiency in Table 3 for both quarters"
+ATC&C loss,%,17.29,18.43,,Table 4,2022 MYTO target for Ikeja: 11.37%; no DisCo met its target
+NBET invoice (full),NGN billion,,32.22,,Tables 5 & 6,
+Minimum Remittance Obligation (MRO),% of NBET invoice,,89.45,,Table 5,
+NBET final obligation (MRO-adjusted invoice),NGN billion,,28.82,,Tables 5 & 6,Figure 12 shows NGN 28820 million
+MO invoice,NGN billion,,6.25,,Table 6,Figure 11 shows NGN 6249 million
+Actual remittance to NBET,NGN billion,,27.84,,Table 6 / Figure 12,Figure 12 shows NGN 27839 million
+Actual remittance to MO,NGN billion,,6.57,,Table 6 / Section 2.5.6,Text states NGN 6.571 billion
+Combined invoice (MRO-adjusted NBET + MO),NGN billion,,35.07,,Figure 10 / Figure C,Plotted as 35069 (NGN million)
+Combined remittance (NBET + MO),NGN billion,,34.41,,Figure 10 / Section 2.5.5,Plotted as 34408 (NGN million)
+Combined remittance performance (NBET + MO),%,108.05,98.11,-9.94 pp,Table 6 / Section 2.5.5,Q4 performance above 90% (joint-highest with Ibadan); decline among the four largest
+Remittance performance to NBET (vs MRO-adjusted invoice),%,116,97,-19.03 pp,Section 2.5.7 / Figure 12 / Appendix V,Appendix V shows 86% for Q4 when measured against the full NGN 32.22bn invoice
+Remittance performance to MO,%,108,105.12,-2.97 pp,Section 2.5.6 / Figure 11 / Appendix IV,Above 100% due to payment of arrears (report footnote 7); only Ikeja and Ibadan exceeded 100%
+Registered customers (as at 31 Dec 2022),count,,1298323,,Table 12,
+Metered customers (as at 31 Dec 2022),count,,763680,,Table 12,
+Metering rate,%,,58.82,,Table 12 / Figure D,Highest metering rate of all DisCos
+Meters installed in quarter (all schemes),count,28733,52177,+23444 (+81.59%),Table 13 / Section 4.2,Led all DisCos; 31.70% of total NESI installations in Q4
+Meters installed under MAP scheme,count,28733,52177,,Appendix XII,32.59% of all MAP installations in Q4 (highest of all DisCos)
+Meters installed under NMMP scheme,count,0,0,,Appendix XI,Ikeja's NMMP allocation (111703 meters) fully installed by 2021
+Customer complaints received,count,32044,29282,-2762 (-8.62%),Table 14 / Section 4.3,
+Customer complaints resolved,count,28868,19536,,Table 14,
+Customer complaints unresolved,count,,9746,,Appendix VI / Appendix XIV,
+Complaint resolution rate,%,90.09,66.72,,Table 14,Lowest resolution rate of all DisCos in Q4; only Ikeja and Ibadan fell below 90%
+Forum appeals active (Ikeja Forum Office),count,,906,,Table 15,Highest of all DisCos; 550 brought forward from Q3 + 356 new (Appendix XIII)
+Forum appeals resolved,count,,500,,Table 15,
+Forum appeals pending at end of quarter,count,,406,,Table 15,
+Forum panel sittings,count,,8,,Table 15 / Appendix XIII,
+Forum appeal resolution rate,%,,55.19,,Appendix XIII,
+Health & safety incidents reported,count,,0,,Section 4.5,Ikeja and Yola were the only DisCos with no reported incidents in Q4 (0 incidents / 0 injuries / 0 deaths)

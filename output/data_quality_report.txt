@@ -1,0 +1,48 @@
+Data quality report
+============================================================
+Generated at: 2026-06-15T10:35:01.529587+00:00
+
+Row counts
+------------------------------------------------------------
+  MYTO Appendix 2:            363 feeders
+  Caps October (post-agg):    305 feeders
+  Caps November (post-agg):   305 feeders
+  Caps December (post-agg):   305 feeders
+  Master feeder table:        414 feeders (outer join)
+
+Coverage flags
+------------------------------------------------------------
+  In MYTO + all three months: 256
+  In MYTO only (no caps):     83
+  In caps only (no MYTO):     51
+  Caps imputed from band mean: 83
+
+Band distribution in master table
+------------------------------------------------------------
+  A                 107
+  A - Bilateral      21
+  B                  80
+  C                 134
+  D                  68
+  E                   4
+
+Demand weight sanity checks
+------------------------------------------------------------
+  Sum of demand_weight: 1.000000  (should be 1.0)
+  Min demand_weight:    0.000625
+  Max demand_weight:    0.006949
+  Median demand_weight: 0.002206
+
+Cap totals (units as in source CSV; interpretable as MWh/month)
+------------------------------------------------------------
+  October cap sum:       164,427
+  November cap sum:      169,417
+  December cap sum:      172,978
+
+Assumptions to flag in the methodology section
+------------------------------------------------------------
+  1. Cap units: source column is labelled 'Cap (kWh)' but the monthly totals are consistent with MWh. The script keeps the original values unchanged.
+  2. Some feeders appear under multiple business units in the caps files; their caps are summed across BUs to produce one row per feeder per month.
+  3. Feeders present in MYTO but absent from a caps file get their cap imputed from the within-band mean.
+  4. Bands are stable across Oct/Nov/Dec (empirically verified, 0 of 279 common feeders change band).
+  5. 'A - Bilateral' is treated as priority-equivalent to Band A.
