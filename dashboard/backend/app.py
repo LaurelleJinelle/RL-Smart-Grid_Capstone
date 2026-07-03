@@ -14,7 +14,7 @@ import sys
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Optional
-
+import os   
 import numpy as np
 import pandas as pd
 from fastapi import FastAPI, HTTPException
@@ -77,9 +77,18 @@ app = FastAPI(title="Smart Grid RL Dashboard", lifespan=lifespan)
 
 # In development, the React dev server runs on a different port, so CORS is
 # necessary. The Vite config also proxies /api so this is belt-and-braces.
+allowed_origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+]
+# Add production frontend URL from environment variable
+prod_origin = os.environ.get("FRONTEND_URL")
+if prod_origin:
+    allowed_origins.append(prod_origin)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=allowed_origins,
     allow_methods=["*"],
     allow_headers=["*"],
 )

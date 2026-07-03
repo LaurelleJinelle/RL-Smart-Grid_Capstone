@@ -1,6 +1,8 @@
 /* API client for the Smart Grid RL backend. */
 
-const API = '/api'
+const API = import.meta.env.VITE_API_URL
+  ? `${import.meta.env.VITE_API_URL}/api`
+  : '/api'  // fallback for local dev via Vite proxy
 
 async function jsonFetch(url, options = {}) {
   const res = await fetch(url, {

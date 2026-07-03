@@ -1,2 +1,9 @@
+node_modules/
+__pycache__/
+*.pyc
 .env
-dashboard/frontend/node_modules
+.venv/
+.DS_Store
+dist/
+build/
+!output/pilot_run/*.zip
