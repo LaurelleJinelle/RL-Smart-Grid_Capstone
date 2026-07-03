@@ -24,6 +24,7 @@ from pydantic import BaseModel
 # Make the project root importable so we can pull in the simulator code.
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
+sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 
 from feeder_env import FeederSimulator, SimConfig, BASELINES  # noqa: E402
 from run_pilot import evaluate_policy                         # noqa: E402
