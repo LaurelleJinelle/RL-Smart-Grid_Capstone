@@ -138,7 +138,7 @@ mission-capstone/
 │   ├── backend/                    FastAPI, loads models at startup
 │   └── frontend/                   Vite + React + Tailwind + Recharts
 ├── docs/
-│   └── screenshots/                dashboard captures 
+│   └── screenshots/                deployed dashboard screenshots
 └── .gitignore
 ```
 
