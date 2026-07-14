@@ -8,7 +8,7 @@ service levels), evaluated against four baselines, and deployed as a React + Fas
 **Author:** LJ Nformi, BSc Software Engineering, African Leadership University
 **Supervisor:** Emmanuel Adjei
 
-> 🎥 **Demo video:** [[here]((https://drive.google.com/file/d/1cnMhPo-lO150Uyfr7ASD1Rs6L8ky2a1Q/view?usp=sharing))]
+> 🎥 **Demo video:** [[here](https://drive.google.com/file/d/1cnMhPo-lO150Uyfr7ASD1Rs6L8ky2a1Q/view?usp=drive_link)]
 > 🌐 **Live dashboard:** [[here](https://smartgrid-environemnt.vercel.app/)]
 > 📄 **Thesis document:** [[here](https://docs.google.com/document/d/1UU_w5wqXIjnntBsiY9AVNBERVxgNWTtAQ0VPEJ79uM8/edit?usp=sharing)]
 
